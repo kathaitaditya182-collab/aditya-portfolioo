@@ -1,6 +1,6 @@
 <div align="center">
-  <a href="https://github.com/Sunil56224972/voyage">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=2ecc71&center=true&vCenter=true&width=600&lines=Voyage+:+3D+Interactive+Portfolio;Welcome+to+my+Digital+Raft;Built+with+React+%2B+Three.js" alt="Typing SVG" />
+  <a href="https://github.com/Sunil56224972/aditya-kathait">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=2ecc71&center=true&vCenter=true&width=600&lines=Aditya+Kathait+:+3D+Interactive+Portfolio;Welcome+to+my+Digital+Raft;Built+with+React+%2B+Three.js" alt="Typing SVG" />
   </a>
 </div>
 
@@ -25,9 +25,9 @@
 
 <br />
 
-<h2 id="about">🌊 About Voyage</h2>
+<h2 id="about">🌊 About Aditya Kathait</h2>
 
-**Voyage** is a unique, gamified approach to the traditional developer portfolio. Instead of scrolling through a flat webpage, visitors land on a 3D digital raft floating in a beautiful ocean environment. They can pan the camera, click on an interactive signpost, and smoothly glide through a showcase of my best projects. 
+**Aditya Kathait** is a unique, gamified approach to the traditional developer portfolio. Instead of scrolling through a flat webpage, visitors land on a 3D digital raft floating in a beautiful ocean environment. They can pan the camera, click on an interactive signpost, and smoothly glide through a showcase of my best projects. 
 
 <h2 id="features">✨ Features</h2>
 
@@ -39,7 +39,7 @@
 
 <h2 id="projects-showcase">🚀 Projects Showcase</h2>
 
-Voyage serves as the central hub for all my major development projects:
+Aditya Kathait serves as the central hub for all my major development projects:
 
 1. **Bilaspur College Reviewer** - A robust directory and review platform for local colleges.
 2. **Career Guidance Platform** - An interactive tool to help students find their path.
@@ -55,10 +55,10 @@ To run this 3D portfolio locally on your machine:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Sunil56224972/voyage.git
+git clone https://github.com/Sunil56224972/aditya-kathait.git
 
 # 2. Navigate into the directory
-cd voyage
+cd aditya-kathait
 
 # 3. Serve the application
 # If you have Node.js installed, you can use npx:
@@ -74,12 +74,12 @@ http://localhost:8081
 
 I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. 
 
-- **LinkedIn**: [Connect with me on LinkedIn](https://www.linkedin.com/in/sunil-aimbot-81340839a/)
-- **Email**: [sunilnathyogi008@gmail.com](mailto:sunilnathyogi008@gmail.com)
-- **GitHub**: [@Sunil56224972](https://github.com/Sunil56224972)
+- **LinkedIn**: [Connect with me on LinkedIn](#)
+- **Email**: [adityakathait182@gmail.com](mailto:adityakathait182@gmail.com)
+- **GitHub**: [@kathaitaditya182-collab](https://github.com/kathaitaditya182-collab)
 
 ---
 
 <p align="center">
-  <i>Crafted with ❤️ by Sunil Nath Yogi.</i>
+  <i>Crafted with ❤️ by Aditya Kathait.</i>
 </p>
