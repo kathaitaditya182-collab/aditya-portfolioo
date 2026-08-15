@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Campaigns | Aditya Kathait</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: #0a0a0a;
+            color: #ffffff;
+        }
+        .masonry {
+            column-count: 1;
+            column-gap: 1.5rem;
+        }
+        @media (min-width: 640px) { .masonry { column-count: 2; } }
+        @media (min-width: 1024px) { .masonry { column-count: 3; } }
+        @media (min-width: 1280px) { .masonry { column-count: 4; } }
+        .masonry-item {
+            break-inside: avoid;
+            margin-bottom: 1.5rem;
+            position: relative;
+            overflow: hidden;
+            border-radius: 0.75rem;
+            background-color: #1a1a1a;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+        .masonry-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        .masonry-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.6s ease, filter 0.4s ease;
+            filter: brightness(0.9);
+        }
+        .masonry-item:hover img {
+            transform: scale(1.05);
+            filter: brightness(1.1);
+        }
+        .nav-glass {
+            background: rgba(10, 10, 10, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+    </style>
+</head>
+<body class="antialiased min-h-screen">
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 nav-glass">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <h1 class="text-xl font-light tracking-[0.2em] uppercase">Creative Campaigns</h1>
+            <a href="./" class="text-sm text-white/70 hover:text-white transition-colors duration-300 border border-white/30 px-6 py-2 rounded hover:border-white/60">
+                Back to Portfolio
+            </a>
+        </div>
+    </nav>
+
+    <!-- Gallery Section -->
+    <main class="max-w-7xl mx-auto px-6 pt-32 pb-20">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-light mb-4">Posters & Campaigns</h2>
+            <p class="text-gray-400 font-light max-w-2xl mx-auto">A collection of creative directions, visual campaigns, and branding materials.</p>
+        </div>
+        
+        <div class="masonry">
+            <div class="masonry-item">
+                <img src="./images/ChatGPT Image Aug 2, 2026, 07_26_16 PM.png" alt="Campaign 1" loading="lazy">
+            </div>
+            <div class="masonry-item">
+                <img src="./images/ChatGPT Image Aug 2, 2026, 07_27_03 PM.png" alt="Campaign 2" loading="lazy">
+            </div>
+            <div class="masonry-item">
+                <img src="./images/ChatGPT Image Aug 2, 2026, 07_31_29 PM.png" alt="Campaign 3" loading="lazy">
+            </div>
+            <div class="masonry-item">
+                <img src="./images/rishikeshnomads.png" alt="Rishikesh Nomads" loading="lazy">
+            </div>
+            <div class="masonry-item">
+                <img src="./images/uimt college.png" alt="UIMT College" loading="lazy">
+            </div>
+            <div class="masonry-item">
+                <img src="./images/download (42).jpg" alt="Campaign 6" loading="lazy">
+            </div>
+            <div class="masonry-item">
+                <img src="./images/ChatGPT Image Aug 2, 2026, 07_23_26 PM.png" alt="Campaign 7" loading="lazy">
+            </div>
+            <div class="masonry-item">
+                <img src="./images/ChatGPT Image Aug 15, 2026, 08_07_15 PM.png" alt="Campaign 8" loading="lazy">
+            </div>
+            <div class="masonry-item">
+                <img src="./images/ChatGPT Image Aug 15, 2026, 08_06_57 PM.png" alt="Campaign 9" loading="lazy">
+            </div>
+            <div class="masonry-item">
+                <img src="./images/ChatGPT Image Aug 15, 2026, 08_06_43 PM.png" alt="Campaign 10" loading="lazy">
+            </div>
+            <div class="masonry-item">
+                <img src="./images/ChatGPT Image Aug 15, 2026, 08_06_15 PM.png" alt="Campaign 11" loading="lazy">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
