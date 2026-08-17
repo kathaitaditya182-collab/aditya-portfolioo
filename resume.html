@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Aditya Kathait</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: #0a0a0a;
+            color: #ffffff;
+            margin: 0;
+            overflow: hidden; /* Prevent body scroll if iframe takes full height */
+        }
+        .nav-glass {
+            background: rgba(10, 10, 10, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .pdf-container {
+            height: calc(100vh - 80px); /* Adjust based on nav height */
+            width: 100%;
+            margin-top: 80px;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body class="antialiased min-h-screen">
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 nav-glass h-[80px]">
+        <div class="max-w-7xl mx-auto px-6 h-full flex justify-between items-center">
+            <h1 class="text-xl font-light tracking-[0.2em] uppercase">Resume</h1>
+            <div class="flex gap-4">
+                <a href="./Aditya_Kathait_Resume_ATS.pdf" download class="text-sm bg-white text-black hover:bg-gray-200 transition-colors duration-300 px-6 py-2 rounded">
+                    Download PDF
+                </a>
+                <a href="./" class="text-sm text-white/70 hover:text-white transition-colors duration-300 border border-white/30 px-6 py-2 rounded hover:border-white/60">
+                    Back to Portfolio
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Resume Viewer -->
+    <main class="pdf-container">
+        <iframe src="./Aditya_Kathait_Resume_ATS.pdf#toolbar=0" title="Aditya Kathait Resume"></iframe>
+    </main>
+</body>
+</html>
